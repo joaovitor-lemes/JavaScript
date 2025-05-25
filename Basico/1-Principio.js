@@ -44,4 +44,29 @@ let indefinido; // Undefined
 console.log(typeof(nome)); 
 
 
+/* OPERADORES ARITMÉTICOS
 
+- Soma: +
+- Subtração: -
+- Multiplicação: *
+- Divisão: /
+- Resto: %
+- Exponenciação: ** (2 ** 3 = 8)
+
+** INCREMENTO E DECREMENTO
+
+- Incremento: ++
+- Decremento: --
+
+*/
+
+let contador = 2;
+contador **= 2;
+console.log(contador);
+
+/* CONVERSÃO DE TIPOS
+
+parseInt() - Converte uma string para um número inteiro.
+parseFloat() - Converte uma string para um número decimal.
+
+*/
