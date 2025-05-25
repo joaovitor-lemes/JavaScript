@@ -1,6 +1,7 @@
-
 /* No caso de variáveis, utilizar o camelCase, que é a convenção de escrever 
 as variáveis com a primeira letra minúscula e as subsequentes com a primeira letra maiúscula.
+
+Ultilizar o let para declarar variáveis.
 */
 
 let nome = "João";
