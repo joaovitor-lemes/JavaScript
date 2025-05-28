@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Power BI Tab Rotator",
+    "version": "1.0",
+    "description": "Rotaciona automaticamente entre abas do Power BI.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
