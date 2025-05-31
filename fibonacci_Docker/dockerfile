@@ -1,0 +1,11 @@
+# Imagem base com Python
+FROM python:3.10-slim
+
+# Define o diretório de trabalho dentro do container
+WORKDIR /app
+
+# Copia o script Python para o container
+COPY fibonacci.py .
+
+# Comando para executar quando o container for iniciado
+CMD ["python", "fibonacci.py"]
