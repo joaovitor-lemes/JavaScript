@@ -13,3 +13,7 @@ console.log(Number(num1 + num2).toFixed(2)); // toFixed define quantidade de cas
 
 console.log(Number.isInteger(num1));
 
+let num3 = 9.5247;
+let num4 = Math.ceil(num3);
+
+console.log(100/0);
